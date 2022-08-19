@@ -1,2 +1,3 @@
-# musical-palm-tree
 Retrieve the list of AWS services to then individually retrieve default quota limits for...
+
+Peek into the [code](./get_aws_default_service_quotas.py) and set `region`, `all_services`, `services_of_interest`, `output_json_file` and/or `output_markdown_file` as required, then `python3 ./get_aws_default_service_quotas.py` to generate an output file 🖖
